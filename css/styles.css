@@ -1,0 +1,217 @@
+/* fuentes-roboto-y-raleway */
+/* font-family: 'Raleway', sans-serif;......font-family: 'Roboto', sans-serif; */
+:root {
+  --brand-color: #2196f3;
+  --button-color: #f5f4fa;
+  --background-button-color: #2196f3;
+  --background-color: #2f303a;
+  --main-font: "Roboto";
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+/* header-section- */
+/* webstudio */
+.web-studio {
+  color: var(--brand-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1;
+}
+
+.web-studio:hover {
+  color: var(--brand-color);
+}
+/* header-nav-elemnts */
+.header-element {
+  color: #212121;
+  font-family: var(--main-font);
+  font-style: normal;
+  line-height: 1;
+}
+.header-element:hover {
+  color: var(--brand-color);
+}
+.header-element:active {
+  color: var(--brand-color);
+}
+/* header-contacts */
+.header-contact {
+  color: #757575;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration: none;
+}
+.header-contact:hover {
+  color: var(--brand-color);
+}
+/* seccion#1 "soluciones eficacez para su negocio */
+.effective-solutions {
+  background-color: var(--background-color);
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1;
+  color: #ffff;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* seccion-2 */
+.section-2-titles {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  color: #212121;
+}
+
+.section-2-paragraphs {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1;
+  color: #757575;
+}
+/* section-titles */
+.section-titles {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/* section-4
+ */
+
+.our-team-members {
+  background-color: #f5f4fa;
+}
+.team-members {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  color: #212121;
+}
+
+.jobs-members {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  color: #757575;
+}
+/* portafolio-pagina2*/
+.briefcase-titles {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+}
+
+.briefcase-proyects {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 2;
+  color: #757575;
+}
+
+/* buttons-section-filtros */
+.button-effective-solutions {
+  color: white;
+  background-color: var(--background-button-color);
+  cursor: pointer;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 2;
+  border: none;
+}
+
+.buttons-filters {
+  font-family: var(--main-font);
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+.buttons-filters:hover {
+  color: var(--button-color);
+  background-color: var(--background-button-color);
+  cursor: pointer;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2;
+  border: none;
+}
+
+.filter-card:hover {
+  cursor: pointer;
+}
+
+.current {
+  color: var(--brand-color);
+}
+.current-button {
+  background-color: var(--brand-color);
+  color: white;
+}
+/* footer-section */
+.footer {
+  background-color: var(--background-color);
+}
+/* footer-elements */
+.footer-elements {
+  color: #ffff;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.footer-elements:hover {
+  color: var(--brand-color);
+}
+/* footer-contacts */
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.footer-contact:hover {
+  color: var(--brand-color);
+}
