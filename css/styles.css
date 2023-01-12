@@ -17,6 +17,22 @@ a {
 ul {
   list-style-type: none;
 }
+
+h1,
+h2,
+h2 {
+  margin-top: 0%;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
+
+.padding-section {
+  padding: 95px 0px 0px 0px;
+}
 /* header-section- */
 /* webstudio */
 .web-studio {
@@ -32,6 +48,12 @@ ul {
   color: var(--brand-color);
 }
 /* header-nav-elemnts */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .header-element {
   color: #212121;
   font-family: var(--main-font);
@@ -57,6 +79,32 @@ ul {
 .header-contact:hover {
   color: var(--brand-color);
 }
+.header-letf-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  padding: auto;
+  margin-left: 20px;
+}
+.nav-item-menu {
+  padding: 0 15px;
+}
+.header-right-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info-list {
+  display: flex;
+  padding: auto;
+  margin-left: 19px;
+}
+.info-item-list {
+  padding: 0 15px;
+}
 /* seccion#1 "soluciones eficacez para su negocio */
 .effective-solutions {
   background-color: var(--background-color);
@@ -69,7 +117,16 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60vh;
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
+
 /* seccion-2 */
 .section-2-titles {
   font-family: var(--main-font);
@@ -86,6 +143,18 @@ ul {
   line-height: 1;
   color: #757575;
 }
+
+.paragraphs-section-2-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.paragraph-section-2-list {
+  width: 270px;
+  height: 96px;
+}
 /* section-titles */
 .section-titles {
   font-family: var(--main-font);
@@ -97,8 +166,16 @@ ul {
   letter-spacing: 0.03em;
   color: #212121;
 }
-/* section-4
- */
+/* section-3 */
+
+.section-3-container-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+  margin: auto;
+}
+/* section-4 */
 
 .our-team-members {
   background-color: #f5f4fa;
@@ -110,6 +187,7 @@ ul {
   font-size: 16px;
   line-height: 1;
   color: #212121;
+  text-align: center;
 }
 
 .jobs-members {
@@ -119,6 +197,14 @@ ul {
   font-size: 16px;
   line-height: 1;
   color: #757575;
+  text-align: center;
+}
+.our-team-members-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+  margin: auto;
 }
 /* portafolio-pagina2*/
 .briefcase-titles {
@@ -186,6 +272,7 @@ ul {
 /* footer-section */
 .footer {
   background-color: var(--background-color);
+  margin-top: 95px;
 }
 /* footer-elements */
 .footer-elements {
