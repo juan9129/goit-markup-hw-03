@@ -17,37 +17,45 @@
   </head>
   <body>
     <!-- header-portafolio -->
-    <header class="container">
-      <a href="index.html" class="web-studio">Webstudio</a>
-      <nav>
-        <ul>
-          <li><a href="./index.html" class="header-element">estudio</a></li>
-          <li>
-            <a href="./portafolio.html" class="header-element current"
-              >portafolio</a
+    <header class="container header-container">
+      <div class="header-letf-container">
+        <a href="index.html" class="web-studio"> Webstudio</a>
+        <nav>
+          <ul class="nav-list">
+            <li class="nav-item-menu">
+              <a href="./index.html" class="header-element">estudio</a>
+            </li>
+            <li class="nav-item-menu">
+              <a href="./portafolio.html" class="header-element current"
+                >portafolio</a
+              >
+            </li>
+            <li class="nav-item-menu">
+              <a href="#contactos" class="header-element">contactos</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-right-container">
+        <ul class="info-list">
+          <li class="info-item-list">
+            <a href="mail:info@devstudio.com" class="header-contact"
+              >info@devstudio.com</a
             >
           </li>
-          <li><a href="#contactos" class="header-element">contactos</a></li>
+          <li class="info-item-list">
+            <a href="tel:+52-55-5529-6000" class="header-contact"
+              >+52 55 5529 6000</a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <a href="mail:info@devstudio.com" class="header-contact"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+52-55-5529-6000" class="header-contact"
-            >+52 55 5529 6000</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <!-- main -->
     <main>
       <!-- section-filtros y portafolio -->
-      <section class="container">
-        <ul>
+      <section class="container padding-section">
+        <ul class="filter-button-container">
           <li>
             <button type="button" class="buttons-filters current-button">
               Todo
@@ -64,8 +72,8 @@
             <button type="button" class="buttons-filters">Marketing</button>
           </li>
         </ul>
-        <ul class="filter-card">
-          <li>
+        <ul class="filter-card filter-card-container-list">
+          <li class="filter-card-container">
             <img
               src="images/imagen-8.jpg"
               width="370"
@@ -74,7 +82,7 @@
             <h3 class="briefcase-titles">tecnoduck</h3>
             <p class="briefcase-proyects">Sitio-Web</p>
           </li>
-          <li>
+          <li class="filter-card-container">
             <img
               src="images/imagen-9.jpg"
               width="370"
@@ -83,8 +91,9 @@
             <h3 class="briefcase-titles">
               Póster de Nueva Orleans vs Estrella Dorada
             </h3>
+            <p class="briefcase-proyects">Diseño</p>
           </li>
-          <li>
+          <li class="filter-card-container">
             <img
               src="images/imagen-10.jpg"
               width="370"
@@ -93,32 +102,32 @@
             <h3 class="briefcase-titles">Restaurante Seafood</h3>
             <p class="briefcase-proyects">Aplicaciones</p>
           </li>
-          <li>
+          <li class="filter-card-container">
             <img src="images/imagen-11.jpg" width="370" alt="Headphones" />
             <h3 class="briefcase-titles">Proyecto Prime</h3>
             <p class="briefcase-proyects">Marketing</p>
           </li>
-          <li>
+          <li class="filter-card-container">
             <img src="images/imagen-12.jpg" width="370" alt="boxes" />
             <h3 class="briefcase-titles">Proyecto Cajas</h3>
             <p class="briefcase-proyects">aplicaciónes</p>
           </li>
-          <li>
+          <li class="filter-card-container">
             <img src="images/imagen-13.jpg" width="370" alt="pc-screen" />
             <h3 class="briefcase-titles">La inspiración no tiene límites</h3>
             <p class="briefcase-proyects">Sitio-Web</p>
           </li>
-          <li>
+          <li class="filter-card-container">
             <img src="images/imagen-14.jpg" width="370" alt="book" />
             <h3 class="briefcase-titles">Edición Limitada</h3>
             <p class="briefcase-proyects">Diseño</p>
           </li>
-          <li>
+          <li class="filter-card-container">
             <img src="images/imagen-15.jpg" width="370" alt="tag" />
             <h3 class="briefcase-titles">Proyecto LAB</h3>
             <p class="briefcase-proyects">Marketing</p>
           </li>
-          <li>
+          <li class="filter-card-container">
             <img
               src="images/imagen-16.jpg"
               width="370"
@@ -132,30 +141,32 @@
     </main>
     <!-- footer -->
     <footer id="contactos" class="footer">
-      <a href="index.html" class="web-studio">Webstudio</a>
-      <address>
-        <ul>
-          <li>
-            <a
-              href="https://www.google.com/maps/place/Calz.+Ticom%C3%A1n+500,+La+Laguna+Ticoman,+Gustavo+A.+Madero,+07340+Ciudad+de+M%C3%A9xico,+CDMX,+M%C3%A9xico/@19.5102022,-99.1350661,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1f9c66374d1dd:0x72c74207e8767392!8m2!3d19.5102022!4d-99.1324912?hl=es"
-              target="_blank"
-              rel="noreferrer noopener"
-              class="footer-elements"
-              >Calz. Ticomán 500, Ciudad de México, CDMX, México
-            </a>
-          </li>
-          <li>
-            <a href="mail:info@devstudio.com" class="footer-contact"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+52-55-5529-6000" class="footer-contact"
-              >+52 55 5529 6000</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="footer-list container">
+        <a href="index.html" class="web-studio">Webstudio</a>
+        <address>
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a
+                href="https://www.google.com/maps/place/Calz.+Ticom%C3%A1n+500,+La+Laguna+Ticoman,+Gustavo+A.+Madero,+07340+Ciudad+de+M%C3%A9xico,+CDMX,+M%C3%A9xico/@19.5102022,-99.1350661,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1f9c66374d1dd:0x72c74207e8767392!8m2!3d19.5102022!4d-99.1324912?hl=es"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="footer-elements"
+                >Calz. Ticomán 500, Ciudad de México, CDMX, México
+              </a>
+            </li>
+            <li class="">
+              <a href="mail:info@devstudio.com" class="footer-contact"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+52-55-5529-6000" class="footer-contact"
+                >+52 55 5529 6000</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>

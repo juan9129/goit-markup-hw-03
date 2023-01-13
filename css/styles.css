@@ -153,7 +153,7 @@ h2 {
 
 .paragraph-section-2-list {
   width: 270px;
-  height: 96px;
+  height: 122px;
 }
 /* section-titles */
 .section-titles {
@@ -234,6 +234,8 @@ h2 {
   font-size: 16px;
   line-height: 2;
   border: none;
+  width: 240px;
+  height: 31px;
 }
 
 .buttons-filters {
@@ -257,8 +259,30 @@ h2 {
   line-height: 2;
   border: none;
 }
+.filter-button-container {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
 
 .filter-card:hover {
+  cursor: pointer;
+}
+
+.filter-card-container-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+  margin: 14px 0;
+  row-gap: 1rem;
+}
+
+.filter-card-container:hover {
+  border: 1px solid #f5f4fa;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
 
@@ -273,6 +297,18 @@ h2 {
 .footer {
   background-color: var(--background-color);
   margin-top: 95px;
+  height: 252px;
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  align-items: center;
+}
+
+.footer-list {
+  padding: 0%;
+}
+.footer-list-item {
+  width: 231px;
 }
 /* footer-elements */
 .footer-elements {
