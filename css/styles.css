@@ -23,6 +23,10 @@ h2,
 h2 {
   margin-top: 0%;
 }
+header {
+  border-bottom: 15px;
+  border-color: #212121;
+}
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -30,8 +34,12 @@ h2 {
   margin: auto;
 }
 
-.padding-section {
-  padding: 95px 0px 0px 0px;
+.padding-section-top {
+  padding-top: 95px;
+}
+
+.padding-section-bottom {
+  padding-bottom: 95px;
 }
 /* header-section- */
 /* webstudio */
@@ -52,6 +60,13 @@ h2 {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #ececec;
+}
+.header-container-flex {
+  display: flex;
   justify-content: space-between;
 }
 .header-element {
@@ -79,10 +94,11 @@ h2 {
 .header-contact:hover {
   color: var(--brand-color);
 }
+
 .header-letf-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
 }
 .nav-list {
   display: flex;
@@ -95,11 +111,11 @@ h2 {
 .header-right-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: end;
 }
 .info-list {
   display: flex;
-  padding: auto;
+  padding: 0px;
   margin-left: 19px;
 }
 .info-item-list {
@@ -122,9 +138,7 @@ h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 60vh;
-  padding-top: 200px;
-  padding-bottom: 280px;
+  height: 600px;
 }
 
 /* seccion-2 */
@@ -236,6 +250,9 @@ h2 {
   border: none;
   width: 240px;
   height: 31px;
+  padding: 10 32px;
+  width: 261px;
+  height: 50px;
 }
 
 .buttons-filters {
@@ -258,11 +275,15 @@ h2 {
   font-size: 16px;
   line-height: 2;
   border: none;
+  border-radius: 4px;
 }
 .filter-button-container {
   display: flex;
   justify-content: center;
-  padding: 0;
+  padding: 6 24px;
+  gap: 8px;
+  border-radius: 4px;
+  padding: 6px 24px;
 }
 
 .filter-card:hover {
@@ -285,6 +306,12 @@ h2 {
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
+.filter-card-bottom {
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  padding-left: 24px;
+}
 
 .current {
   color: var(--brand-color);
@@ -296,7 +323,6 @@ h2 {
 /* footer-section */
 .footer {
   background-color: var(--background-color);
-  margin-top: 95px;
   height: 252px;
   display: flex;
   flex-direction: row;
