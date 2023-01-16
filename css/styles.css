@@ -264,6 +264,7 @@ header {
   line-height: 2;
   background-color: #f5f4fa;
   cursor: pointer;
+  border-radius: 4px;
 }
 .buttons-filters:hover {
   color: var(--button-color);
@@ -286,8 +287,12 @@ header {
   padding: 6px 24px;
 }
 
+.filter-card {
+  line-height: 0;
+}
 .filter-card:hover {
   cursor: pointer;
+  line-height: 0;
 }
 
 .filter-card-container-list {
