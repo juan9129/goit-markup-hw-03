@@ -228,6 +228,8 @@ header {
   font-size: 18px;
   line-height: 2;
   color: #212121;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .briefcase-proyects {
@@ -235,6 +237,13 @@ header {
   font-size: 16px;
   line-height: 2;
   color: #757575;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.briefcase-proyects-new-orleans {
+  padding-right: 24px;
+  margin: 0;
 }
 
 /* buttons-section-filtros */
@@ -313,9 +322,16 @@ header {
 }
 .filter-card-bottom {
   border: 1px solid #eeeeee;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
   padding-left: 24px;
+  padding-top: 20px;
+  width: 370px;
+  height: 110px;
+}
+.filter-card-bottom-new-orleans {
+  border: 1px solid #eeeeee;
+  padding-left: 24px;
+  width: 370px;
+  height: 110px;
 }
 
 .current {
